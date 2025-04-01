@@ -1,0 +1,60 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.egg
+*.egg-info/
+dist/
+build/
+.cache/
+*.log
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# Environment Variables and Secrets
+.env
+.env.*
+*.secret
+secrets.json
+
+# Virtual Environment
+venv/
+ENV/
+env/
+.venv/
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# AWS credentials (if accidentally copied)
+.aws/
+
+# Terraform
+*.tfstate
+*.tfstate.*
+.terraform/
+crash.log
+terraform.tfvars
+terraform.tfvars.json
+override.tf
+override.tf.json
+
+# Logs
+logs/
+*.log
+
+# Byte-compiled / optimized / DLL files
+*.so
+*.dll
+*.dylib
+
+# Project-specific
+apod_raw.json
+*.sqlite
+__MACOSX/
+*.tfvars
+*.auto.tfvars
