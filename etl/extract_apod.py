@@ -27,8 +27,8 @@ if __name__ == "__main__":
         data = fetch_apod(start.strftime('%Y-%m-%d'), end.strftime('%Y-%m-%d'))
         with open("apod_raw.json", "w") as f:
             json.dump(data, f, indent=2)
-        print("✅ Data saved to apod_raw.json")
+        print("Data saved to apod_raw.json")
     except requests.exceptions.HTTPError as e:
-        print(f"❌ API Error: {e}")
+        print(f"API Error: {e}")
     except Exception as e:
-        print(f"❌ Unexpected Error: {e}")
+        print(f"Unexpected Error: {e}")
