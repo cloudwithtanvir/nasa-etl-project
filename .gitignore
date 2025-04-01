@@ -56,3 +56,5 @@ logs/
 apod_raw.json
 *.sqlite
 __MACOSX/
+*.tfvars
+*.auto.tfvars
