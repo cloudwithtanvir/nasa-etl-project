@@ -84,9 +84,3 @@ Primary and foreign keys were used to support efficient joins and filtering.
 - [x] Secrets securely managed
 - [x] Documentation and Infrastructure as Code provided
 
-
-
-## Author
-
-Tanvir Ahmed  
-Cloud & Data Engineer  
