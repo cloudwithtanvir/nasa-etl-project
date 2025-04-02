@@ -34,6 +34,11 @@ This project implements a fully automated ETL pipeline that integrates data from
 - AWS S3 (for script storage)
 - Terraform (Infrastructure as Code)
 
+## Architectural Diagram
+The diagram below illustrates the overall data flow and components involved in the NASA ETL pipeline:
+![ETL Architecture](./A_flowchart_diagram_illustrates_an_ETL_pipeline_fo.png)
+
+
 ## Challenges and Solutions
 
 ### 1. Secure Secret Management  
